@@ -1,0 +1,1 @@
+const sgMail = require('@sendgrid/mail'); exports.handler = async function(e){ return { statusCode:200, body: JSON.stringify({ok:true}) }; }
